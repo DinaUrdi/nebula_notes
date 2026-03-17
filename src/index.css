@@ -8,7 +8,7 @@
 @font-face {
   font-family: 'Manrope';
   src: url('./assets/fonts/Manrope-VariableFont_wght.woff2') format('woff2');
-  font-weight: 400;
+  font-weight: 100 900;
   font-style: normal;
 }
 
@@ -134,14 +134,14 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     box-sizing: border-box;
   }
   body {
     @apply bg-background;
     font-family: 'Manrope', sans-serif;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1, h3, h4, h5, h6 {
     font-family: 'Tenor Sans', sans-serif;
   }
   *:focus, :focus-visible, :focus-within {
